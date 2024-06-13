@@ -87,7 +87,7 @@ if select == "Home":
 
     col1, col2 = st.columns(2)
     with col1:
-        st.image(Image.open("C:\\Users\\User\\Desktop\\hello-colorful.gif"), width=500)
+        st.image(Image.open("G:\Data Science\$$Projects\BisCardx\hello-colorful.gif"), width=500)
         st.markdown("## :green[**Technologies Used :**] Python,easy OCR, Streamlit, SQL, Pandas")
     with col2:
         st.write(
@@ -126,7 +126,7 @@ elif select == "Upload & Modify":
             mydb = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="mysql",
+                password="root",
                 auth_plugin='mysql_native_password',
                 database="bizcardx_db"
             )
@@ -161,7 +161,7 @@ elif select == "Upload & Modify":
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="mysql",
+            password="root",
             auth_plugin='mysql_native_password',
             database="bizcardx_db"
         )
@@ -181,7 +181,7 @@ elif select == "Upload & Modify":
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="mysql",
+            password="root",
             auth_plugin='mysql_native_password',
             database="bizcardx_db"
         )
@@ -242,7 +242,7 @@ elif select == "Upload & Modify":
             mydb = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="mysql",
+                password="root",
                 auth_plugin='mysql_native_password',
                 database="bizcardx_db"
             )
@@ -265,7 +265,7 @@ elif select == "Delete":
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="mysql",
+        password="root",
         auth_plugin='mysql_native_password',
         database="bizcardx_db"
     )
